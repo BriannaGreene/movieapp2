@@ -6,8 +6,9 @@ exports.seed = function(knex, Promise) {
       // Inserts seed entries
       return knex('director').insert([
         {name: 'SoandSo', nationality: 'American'},
-        {name: 'SoandSo', nationality: 'American'},
-        {id: 3, colName: 'rowValue3'}
+        {name: 'Brianna Greene', nationality: 'French'},
+        {name: 'Cat P', nationality: 'Chilean'},
+        {name: 'Jonny Hork', nationality: 'Mars and Med'}
       ]);
     });
 };
